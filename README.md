@@ -1,17 +1,20 @@
-# Eureka Server
+# andr-eureka
 
-Standalone Spring Boot Eureka Server for service discovery.
+Eureka discovery server for the `andr` Spring services.
 
 ## Run
 
-```bash
+```powershell
 mvn spring-boot:run
 ```
 
-The Eureka dashboard is available at:
+The server starts on `http://localhost:8761` by default.
 
-```text
-http://localhost:8761
+You can override the port:
+
+```powershell
+$env:SERVER_PORT = "8762"
+mvn spring-boot:run
 ```
 
 Client applications should use:
@@ -19,4 +22,3 @@ Client applications should use:
 ```text
 http://localhost:8761/eureka/
 ```
-

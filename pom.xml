@@ -12,10 +12,10 @@
     </parent>
 
     <groupId>org.example</groupId>
-    <artifactId>eureka-server</artifactId>
+    <artifactId>andr-eureka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka-server</name>
-    <description>Service discovery server</description>
+    <name>andr-eureka</name>
+    <description>Eureka discovery server for andr services</description>
 
     <properties>
         <java.version>17</java.version>
